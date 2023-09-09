@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Namaste JavaScript</h1>
+    <p>
+      let doesn't allow the redeclaration if you try to do it , will throw a
+      syntax error
+    </p>
+    <p>
+      In const you have to initialise while declaration only , if you try
+      redeclaration in const it thorow type error
+    </p>
+    <p>
+      TypeError -> Assaignment to const variable ; SyntaxError -> Assaignment to
+      let variable or not initialising const variable etc ; RefrenceError ->
+      When JavaScript tries to find out a specific variable bt cannot acces it
+    </p>
+    <p>
+      let and const declaration are hoisted in JavaScript (but not in global
+      memory scope) in temporal deadzone
+    </p>
+    <br />
+    <p>
+      Temporal deadzone is the time since when the let and const variable is
+      hoisted and till it is initialised some value( the time between that is
+      know as temporal dead zone)
+    </p>
+    <p>
+      Whenever you try to acces the value in temporal deadzone it gives an
+      Refrence error
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>
