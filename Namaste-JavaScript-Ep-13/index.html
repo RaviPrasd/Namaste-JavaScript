@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Namaste JavaScript</h1>
+    <p>
+      Function Statement / Function Declaration-> The traditional way of writing
+      the function ex. function a() { }
+    </p>
+    <p>
+      Function Expression -> Assigning Anonymous function to a variable ex. var
+      a = function () {}
+    </p>
+    <p>
+      Differnce between Function Expression and Function Statement is of
+      Hoisting , if we called both the function before its creation Function
+      Statement will act like any other function in JavaScript but Function
+      Expression function will be tretaed as variable as we are assigning
+      function to variable
+    </p>
+    <p>
+      Anonymous Function -> A function without any name is a Anonymous Function
+      , it doesn't have an identity , if we write a Anonymous Function we will
+      get syntax error as Function statement requires name, Anonymous Function
+      are used in a place where function are used as values ex. function () {}
+    </p>
+    <p>
+      Named Function Expression -> Assigning a Named function to a variable ,
+      here the named function is not created in global scope so if we will try
+      to access it outside the function it will give RefrenceError but inside
+      the function it can be accesed
+    </p>
+    <p>
+      First Class Function / First Class Citizen(Function are used as) -> The
+      ability to use function as a value is first class function , ex. Function
+      can be passed as an argument from another function , Function can be
+      received as an parameter in another function, a function can return
+      another function
+    </p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
