@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Namaste JavaScript</h1>
+    <p>
+      Event loop -> Event loop acts like a gate keeper which is always checking
+      whether soething is there in Call Back Queue or Microtask Queue , and when
+      the call stack is empty it push the call back in call stack
+    </p>
+    <p>
+      Call Back Queue -> Callback functions that need to be asynchronously
+      executed, are pushed onto the callback queue.
+    </p>
+    <p>
+      Microtask Queue -> It has more priority than call queue , All the callback
+      function which comes through promises as well as mutation observer
+    </p>
+    <p>
+      Starvation of function -> When a microtask generate another microtask
+      inside the micro task queue and due to which the callback function in
+      callback queue doesn't get chance is known as startvation of function
+    </p>
+  </body>
+</html>
